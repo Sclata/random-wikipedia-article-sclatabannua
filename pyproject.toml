@@ -1,0 +1,10 @@
+[project]
+name = "random-wikipedia-article-sclatabannua"
+version = "0.1.4"
+
+[project.scripts]
+random-wikipedia-article-sclatabannua = "random_wikipedia_article_sclatabannua.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
